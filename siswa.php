@@ -43,6 +43,8 @@ if (isset($_POST['update'])) {
 </head>
 <body>
   <div class="container mt-5">
+    <a href="index.php" class="btn btn-primary mb-4">Home</a>
+    
     <form action="" method="POST" class="mt-4">
       <input type="hidden" name="currentId" value="<?= $formData['nis'] ?? '' ?>">
       <div class="row">
